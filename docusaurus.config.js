@@ -10,6 +10,9 @@ module.exports = {
   organizationName: "VolcanoidsModding", // Usually your GitHub org/user name.
   projectName: "SDKWiki", // Usually your repo name.
   themeConfig: {
+    prism: {
+      additionalLanguages: ['csharp'],
+    },
     navbar: {
       title: "Modding SDK",
       logo: {
