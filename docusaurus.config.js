@@ -14,7 +14,7 @@ module.exports = {
       title: "Modding SDK",
       logo: {
         alt: "Modding SDK Logo",
-        src: "img/logo.svg",
+        src: "img/ModdingCOG.ico",
       },
       items: [
         {
