@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  favicon: "img/ModdingCOG.ico",
   organizationName: "VolcanoidsModding", // Usually your GitHub org/user name.
   projectName: "SDKWiki", // Usually your repo name.
   themeConfig: {
