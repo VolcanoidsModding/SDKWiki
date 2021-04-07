@@ -18,10 +18,16 @@ module.exports = {
       },
       items: [
         {
-          to: "/",
-          activeBasePath: "docs",
-          label: "Docs",
-          position: "left",
+          type: "docsVersionDropdown",
+
+          //// Optional
+          position: "right",
+          // Add additional dropdown items at the beginning/end of the dropdown.
+          dropdownItemsBefore: [],
+          dropdownItemsAfter: [],
+          // Do not add the link active class when browsing docs.
+          dropdownActiveClassDisabled: true,
+          docsPluginId: "docs",
         },
         {
           href: "https://github.com/VolcanoidsModding",
@@ -37,8 +43,8 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Introduction",
-              to: "/",
+              label: "Modding",
+              href: "https://modding.melodicalbuild.me/",
             },
           ],
         },
@@ -77,11 +83,25 @@ module.exports = {
       "@docusaurus/preset-classic",
       {
         docs: {
+          id: "docs",
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
             "https://github.com/facebook/docusaurus/edit/master/website/",
+          includeCurrentVersion: true,
+          disableVersioning: false,
+          lastVersion: "current",
+          versions: {
+            current: {
+              label: "1.0.3",
+              path: "",
+            },
+            "1.0.2": {
+              label: "1.0.2",
+              path: "docs-1.0.2",
+            },
+          },
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
