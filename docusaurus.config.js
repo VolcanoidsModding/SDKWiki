@@ -10,6 +10,14 @@ module.exports = {
   organizationName: "VolcanoidsModding", // Usually your GitHub org/user name.
   projectName: "SDKWiki", // Usually your repo name.
   themeConfig: {
+    // announcementBar: {
+    //     id: 'support_us', // Any value that will identify this message.
+    //     content:
+    //         'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey<a>',
+    //     backgroundColor: '#fafbfc', // Defaults to `#fff`.
+    //     textColor: '#091E42', // Defaults to `#000`.
+    //     isCloseable: false, // Defaults to `true`.
+    // },
     prism: {
       additionalLanguages: ['csharp'],
     },
