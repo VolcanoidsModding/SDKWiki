@@ -12,26 +12,6 @@ None
 
 ## Functions
 
-### Functions
-
----
-
-#### *Remarks*
-MelodicAlbuild, 4/8/2021
-
-#### *Arguments*
-| Type | Name | Description |
-| --- | --- | --- | 
-| SDK | sdk | The SDK you initialized at the start of the sdk. [VolcanoidsSDK.SDK](./SDK.md) |
-
-#### *Return Type*
-Void
-
-#### *Description*
-This function allows for the usage of further Functions in the SDK. Without using this function all other functions will throw errors. Making Copies of this Class is not recommended.
-
-------
-
 ### CreateModule
 
 ---
