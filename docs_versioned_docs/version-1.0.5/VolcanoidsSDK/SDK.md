@@ -11,8 +11,8 @@ MelodicAlbuild, 3/30/2021
 | Type | Name | Default |
 | --- | ----------- | --- |
 | Boolean | Enabled | false |
-| GUID | ModID | null |
-| String | version | 1.0.6 |
+| String | ModID | null |
+| String | version | 1.0.0 |
 
 ## Functions
 
@@ -25,7 +25,7 @@ MelodicAlbuild, 3/30/2021
 | Type | Name | Description |
 | --- | --- | --- | 
 | String | name | The Name of your Mod |
-| GUID _or_ String | appIdentifier | The GUID _or_ String of your Mod passed into the ModID Variable |
+| GUID | appIdentifier | The GUID of your Mod passed into the ModID Variable |
 
 #### Return Type
 Void

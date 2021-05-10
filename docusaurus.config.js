@@ -19,7 +19,7 @@ module.exports = {
     //     isCloseable: false, // Defaults to `true`.
     // },
     prism: {
-      additionalLanguages: ['csharp'],
+      additionalLanguages: ["csharp"],
     },
     navbar: {
       title: "Modding SDK",
@@ -105,8 +105,12 @@ module.exports = {
           lastVersion: "current",
           versions: {
             current: {
-              label: "1.0.3",
+              label: "1.1.0",
               path: "",
+            },
+            "1.0.5": {
+              label: "1.0.5",
+              path: "docs-1.0.5",
             },
             "1.0.2": {
               label: "1.0.2",
