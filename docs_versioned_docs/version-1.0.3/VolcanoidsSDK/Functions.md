@@ -8,31 +8,9 @@ sidebar_label: Functions
 MelodicAlbuild, 4/4/2021
 
 ## Class Variables
-| Type | Name | Default |
-| --- | ----------- | --- |
-| Boolean | Enabled | false |
+None
 
 ## Functions
-
-### Functions
-
----
-
-#### *Remarks*
-MelodicAlbuild, 4/8/2021
-
-#### *Arguments*
-| Type | Name | Description |
-| --- | --- | --- | 
-| SDK | sdk | The SDK you initialized at the start of the sdk. [VolcanoidsSDK.SDK](./SDK.md) |
-
-#### *Return Type*
-Void
-
-#### *Description*
-This function allows for the usage of further Functions in the SDK. Without using this function all other functions will throw errors. Making Copies of this Class is not recommended.
-
-------
 
 ### CreateModule
 
@@ -50,7 +28,7 @@ MelodicAlbuild, 3/30/2021
 | String | baseitem | The Item to Base this object off, Pick a Module with the same Variant. |
 | LocalizedString | name | The Spaced Name of your Module. |
 | LocalizedString | desc | The Description of your Module. |
-| String _or_ GUID | guidstring | The GUID in String _or_ GUID Form for your module. |
+| String | guidstring | The GUID in String Form for your module. |
 | String | categoryname | The Category in which your Module is in. |
 | String | factorytypename | The Factory Type that is Module is a Part of. |
 | String | iconPath | Full pathname of the icon file. |
@@ -79,7 +57,7 @@ MelodicAlbuild, 3/30/2021
 | Integer | maxstack | The Maximum you can have of this item in a stack. | 
 | LocalizedString | name | The Spaced Name of your Module. |
 | LocalizedString | desc | The Description of your Module. |
-| String _or_ GUID | guidstring | The GUID in String _or_ GUID Form for your module. |
+| String | guidstring | The GUID in String Form for your module. |
 | String | categoryname | The Category in which your Module is in. |
 | String | iconPath | Full pathname of the icon file. |
 
@@ -107,7 +85,7 @@ MelodicAlbuild, 3/30/2021
 | String | baseitem | The Item to Base this object off, Pick a Module with the same Variant. |
 | Float | minyield | The Minimum Amount the Deposit can give. |
 | Float | maxyield | The Maximum Amount the Deposit can give. |
-| String _or_ GUID | ItemToReplace | The Deposit Item to Replace. |
+| String | ItemToReplace | The Deposit Item to Replace. |
 
 #### *Return Type*
 Void
@@ -131,7 +109,7 @@ MelodicAlbuild, 3/30/2021
 | Input Array | inputs | The inputs of the Recipe. Uses [VolcanoidsFramework.lib.classes.Input](./lib/classes/Input.md). |
 | Output Array | outputs | The outputs of the Recipe. Uses [VolcanoidsFramework.lib.classes.Output](./lib/classes/Output.md). Note there can only be 1 output as of this moment. | 
 | String | baseRecipe | The base Recipe. |
-| String _or_ GUID | itemId | GUID for the Item. |
+| String | itemId | GUID for the Item. |
 | String Array | requiredItems | The required items (Schematics) to create this Recipe. |
 | String | recipeCategory | Category the recipe belongs to. |
 
@@ -158,7 +136,7 @@ MelodicAlbuild, 4/4/2021
 | Integer | maxstack | The Maximum you can have of this item in a stack. | 
 | LocalizedString | name | The Spaced Name of your Module. |
 | LocalizedString | desc | The Description of your Module. |
-| String _or_ GUID | guidstring | The GUID in String _or_ GUID Form for your module. |
+| String | guidstring | The GUID in String Form for your module. |
 | String | iconPath | Full pathname of the icon file. |
 | String | variantname | The Name of the Variant, Such as Tier1 or Tier2. |
 | String Array | categoryList | Array of Strings for Categories for the Station Item to be placed in. |

@@ -112,6 +112,10 @@ module.exports = {
               label: "1.0.5",
               path: "docs-1.0.5",
             },
+            "1.0.3": {
+              label: "1.0.3",
+              path: "docs-1.0.3",
+            },
             "1.0.2": {
               label: "1.0.2",
               path: "docs-1.0.2",
