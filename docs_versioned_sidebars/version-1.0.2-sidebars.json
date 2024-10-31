@@ -1,14 +1,8 @@
 {
-  "version-1.0.2/docs": [
+  "docs": [
     {
       "type": "doc",
-      "id": "version-1.0.2/introduction"
-    },
-    {
-      "collapsed": true,
-      "type": "category",
-      "label": "Docusaurus Tutorial",
-      "items": []
+      "id": "introduction"
     }
   ]
 }

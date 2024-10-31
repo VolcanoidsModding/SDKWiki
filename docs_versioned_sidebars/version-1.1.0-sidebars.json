@@ -1,8 +1,8 @@
 {
-  "version-1.1.0/docs": [
+  "docs": [
     {
       "type": "doc",
-      "id": "version-1.1.0/introduction"
+      "id": "introduction"
     },
     {
       "collapsed": true,
@@ -11,11 +11,11 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-1.1.0/VolcanoidsSDK/sdk"
+          "id": "VolcanoidsSDK/sdk"
         },
         {
           "type": "doc",
-          "id": "version-1.1.0/VolcanoidsSDK/functions"
+          "id": "VolcanoidsSDK/functions"
         },
         {
           "collapsed": true,
@@ -29,15 +29,15 @@
               "items": [
                 {
                   "type": "doc",
-                  "id": "version-1.1.0/VolcanoidsSDK/lib/classes/enums"
+                  "id": "VolcanoidsSDK/lib/classes/enums"
                 },
                 {
                   "type": "doc",
-                  "id": "version-1.1.0/VolcanoidsSDK/lib/classes/input"
+                  "id": "VolcanoidsSDK/lib/classes/input"
                 },
                 {
                   "type": "doc",
-                  "id": "version-1.1.0/VolcanoidsSDK/lib/classes/output"
+                  "id": "VolcanoidsSDK/lib/classes/output"
                 }
               ]
             },
@@ -48,53 +48,53 @@
               "items": [
                 {
                   "type": "doc",
-                  "id": "version-1.1.0/VolcanoidsSDK/lib/scripts/extensions"
+                  "id": "VolcanoidsSDK/lib/scripts/extensions"
                 },
                 {
                   "type": "doc",
-                  "id": "version-1.1.0/VolcanoidsSDK/lib/scripts/findcategory"
+                  "id": "VolcanoidsSDK/lib/scripts/findcategory"
                 },
                 {
                   "type": "doc",
-                  "id": "version-1.1.0/VolcanoidsSDK/lib/scripts/findfactorycategories"
+                  "id": "VolcanoidsSDK/lib/scripts/findfactorycategories"
                 },
                 {
                   "type": "doc",
-                  "id": "version-1.1.0/VolcanoidsSDK/lib/scripts/generatecategories"
+                  "id": "VolcanoidsSDK/lib/scripts/generatecategories"
                 },
                 {
                   "type": "doc",
-                  "id": "version-1.1.0/VolcanoidsSDK/lib/scripts/spritegenerator"
+                  "id": "VolcanoidsSDK/lib/scripts/spritegenerator"
                 },
                 {
                   "type": "doc",
-                  "id": "version-1.1.0/VolcanoidsSDK/lib/scripts/typings"
+                  "id": "VolcanoidsSDK/lib/scripts/typings"
                 }
               ]
             },
             {
               "type": "doc",
-              "id": "version-1.1.0/VolcanoidsSDK/lib/category"
+              "id": "VolcanoidsSDK/lib/category"
             },
             {
               "type": "doc",
-              "id": "version-1.1.0/VolcanoidsSDK/lib/deposit"
+              "id": "VolcanoidsSDK/lib/deposit"
             },
             {
               "type": "doc",
-              "id": "version-1.1.0/VolcanoidsSDK/lib/item"
+              "id": "VolcanoidsSDK/lib/item"
             },
             {
               "type": "doc",
-              "id": "version-1.1.0/VolcanoidsSDK/lib/module"
+              "id": "VolcanoidsSDK/lib/module"
             },
             {
               "type": "doc",
-              "id": "version-1.1.0/VolcanoidsSDK/lib/recipecreator"
+              "id": "VolcanoidsSDK/lib/recipecreator"
             },
             {
               "type": "doc",
-              "id": "version-1.1.0/VolcanoidsSDK/lib/station"
+              "id": "VolcanoidsSDK/lib/station"
             }
           ]
         }
